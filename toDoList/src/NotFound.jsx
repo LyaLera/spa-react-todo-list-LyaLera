@@ -6,7 +6,7 @@ export default function NotFound() {
 
     useEffect(() => {
         setTimeout(() => {
-            navigate("/spa-react-todo-list-LyaLera/")
+            navigate("/")
         }, 5000)
     }, [])
     return (
