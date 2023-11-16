@@ -1,8 +1,0 @@
-{
-    "routes": [
-        { "src": "/", "dest": "/" },
-        { "src": "/ToDoApp", "dest": "/" },
-        { "src": "/Meal", "dest": "/" },
-        { "src": "/*", "dest": "/" }
-      ]
-  }
