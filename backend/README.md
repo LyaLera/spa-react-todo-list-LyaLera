@@ -17,7 +17,9 @@
 12. Install mongodb `npm install mongodb`, to check the version of mongodb use: `npm list mongodb`
 13. Import mongodb: `const { MongoClient } = require("mongodb")`
 14. Connect server and mongodb `.connect()`using url from mongodb
-15. 
+15. Add get, post, put and delete requests
+16. Install dotenv: `npm install dotenv --save` and import `require("dotenv").config();`
+
  
 
 

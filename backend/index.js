@@ -2,9 +2,10 @@ const express = require("express")
 const { validationResult, body, param } = require("express-validator");
 const app = express();
 const cors = require("cors")
+require("dotenv").config();
 const { MongoClient } = require("mongodb")
-const uri = "mongodb+srv://leralyakisheva:yrPS3enDBos8VBkf@firstdemo.kklobsw.mongodb.net/"
-const client = new MongoClient(uri)
+const connectionStringOfDB = process.env.DATABASE_CONNECTION
+const client = new MongoClient(connectionStringOfDB)
 const port = 3300;
 
 app.use(express.json());
