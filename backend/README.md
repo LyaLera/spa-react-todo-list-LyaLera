@@ -19,6 +19,9 @@
 14. Connect server and mongodb `.connect()`using url from mongodb
 15. Add get, post, put and delete requests
 16. Install dotenv: `npm install dotenv --save` and import `require("dotenv").config();`
+17. Install vercel: `npm i vercel` and create vercel.json file
+18. Create a vercel project with `vercel` command
+19. 
 
  
 

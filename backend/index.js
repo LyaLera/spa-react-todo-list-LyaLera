@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 
 app.get("/todos", async (req, res, next) => {
     try {
-      let databaseTasks = await client.db("todos").collection("tasks").find()
+      let databaseTasks = await client.db("todos").collection("tasks").find().toArray()
       console.log(databaseTasks);
       res.status(200).json({
         success: true,
