@@ -21,7 +21,7 @@
 16. Install dotenv: `npm install dotenv --save` and import `require("dotenv").config();`
 17. Install vercel: `npm i vercel` and create vercel.json file
 18. Create a vercel project with `vercel` command
-19. 
+19. Deploy to production `vercel --prod`
 
  
 
